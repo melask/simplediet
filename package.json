@@ -1,0 +1,31 @@
+{
+  "name": "simplediet",
+  "version": "0.1.0",
+  "description": "A diet planning desktop app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melask/simplediet.git"
+  },
+  "keywords": [
+    "diet"
+  ],
+  "author": "Konstantinos Melabianakis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/melask/simplediet/issues"
+  },
+  "homepage": "https://github.com/melask/simplediet#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "cors": "^2.8.5",
+    "electron": "^4.0.5",
+    "express": "^4.16.4"
+  }
+}
